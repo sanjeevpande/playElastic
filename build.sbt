@@ -10,7 +10,8 @@ libraryDependencies ++= Seq(
   javaJdbc,
   cache,
   javaWs,
-  "com.google.inject" % "guice" % "4.0"
+  "com.google.inject" % "guice" % "4.0",
+  "org.elasticsearch" % "elasticsearch" % "1.4.4"
 )
 
 // Play provides two styles of routers, one expects its actions to be injected, the
